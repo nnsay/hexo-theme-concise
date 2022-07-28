@@ -5,7 +5,7 @@
 
         <% var t = null %>
         <% if( is_post() ) { %>
-        <% t = toc(page.content) %>
+        <% t = toc(page.content, {list_number: false}) %>
         <% } %>
 
         <% if( t ) { %>
